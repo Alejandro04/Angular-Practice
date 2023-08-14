@@ -1,0 +1,66 @@
+{
+    "results": [
+        {
+            "gender": "male",
+            "name": {
+                "title": "Mr",
+                "first": "Luis",
+                "last": "Caballero"
+            },
+            "location": {
+                "street": {
+                    "number": 6507,
+                    "name": "Continuación Sur Prado"
+                },
+                "city": "Nuevo San Diego Tensaenz",
+                "state": "Quintana Roo",
+                "country": "Mexico",
+                "postcode": 72523,
+                "coordinates": {
+                    "latitude": "26.5010",
+                    "longitude": "-101.0343"
+                },
+                "timezone": {
+                    "offset": "+3:30",
+                    "description": "Tehran"
+                }
+            },
+            "email": "luis.caballero@example.com",
+            "login": {
+                "uuid": "929a78bb-1dbe-4fd0-bbd1-b2a3167d509d",
+                "username": "ticklishbutterfly730",
+                "password": "pothead",
+                "salt": "gZR30ZaC",
+                "md5": "bd54dc6655bab48e3a628bc3cd0d7348",
+                "sha1": "620187d53317a4f913c75b3630065832057e5b64",
+                "sha256": "95604821e121c90b8272f1d20d4b6d7f1ed20bd7af83d8fe9b63fa3ed026d139"
+            },
+            "dob": {
+                "date": "1953-09-22T10:34:13.630Z",
+                "age": 69
+            },
+            "registered": {
+                "date": "2015-02-03T12:15:14.460Z",
+                "age": 8
+            },
+            "phone": "(613) 483 0682",
+            "cell": "(603) 135 8317",
+            "id": {
+                "name": "NSS",
+                "value": "32 76 97 4587 2"
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/21.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/21.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/21.jpg"
+            },
+            "nat": "MX"
+        }
+    ],
+    "info": {
+        "seed": "a70131bb4e8e5c14",
+        "results": 1,
+        "page": 1,
+        "version": "1.4"
+    }
+}

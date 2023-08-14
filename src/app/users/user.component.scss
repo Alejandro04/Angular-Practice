@@ -1,0 +1,17 @@
+.paginationContainer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+    span{
+        background-color: #eee;
+        padding: 10px;
+        margin: 2px;
+        border-radius: 6px;
+        margin: 5px;
+        line-height: 2;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,46 @@
+<h1>Usuarios</h1>
+
+<div>
+    <input type="text" name="filter" aria-label="filter" (change)="filterUsers($event)"
+    placeholder="Buscar..">
+
+    <label for="sort">Ordenar por país</label>
+    <input type="checkbox" name="sort" id="sort" aria-label="sort" (change)="sortingUsers()">
+</div>
+
+<table>
+    <thead>
+        <th>Foto</th>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>País</th>
+        <th>Acciones</th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of computedUsers">
+            <td>
+                <img src="{{ user.picture.thumbnail }}" alt="{{ user.email }}">
+            </td>
+            <td>
+                {{ user.name.first }}
+            </td>
+            <td>
+                {{ user.name.last }}
+            </td>
+            <td>
+                {{ user.location.country }}
+            </td>
+            <td>
+                Borrar
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<div class="paginationContainer">
+    <button (click)="prev()">Prev</button>
+    <div>
+        <span *ngFor="let index of pages" (click)="paginateUsers(index)"> {{ index }} </span>
+    </div>
+    <button (click)="next()">Next</button>
+</div>
